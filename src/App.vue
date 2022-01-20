@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <NotificationsDescriptor></NotificationsDescriptor>
+    <Notifications />
   </div>
 </template>
 
 <script>
-import NotificationsDescriptor from '@/components/Notifications/NotificationsDescriptor.vue';
+import Notifications from '@/components/Notifications.vue';
 
 export default {
   name: 'App',
   components: {
-    NotificationsDescriptor,
+    Notifications,
   },
 };
 
